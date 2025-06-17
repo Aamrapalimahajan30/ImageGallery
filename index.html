@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Image Gallery with Save Feature</title>
+   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <span><strong>My Gallery</strong></span>
+    <button class="saved-btn" id="savedBtn"><i class="ri-bookmark-fill"></i> Saved</button>
+  </div>
+
+  <!-- Saved View Header -->
+  <div class="saved-header" id="savedHeader">
+    <h2>Your Saved Images</h2>
+    <button class="back-btn" id="backBtn"><i class="ri-arrow-left-line"></i> Back to Gallery</button>
+  </div>
+
+  <h1 class="gallery-title" id="galleryTitle">📷 My Creative Gallery</h1>
+  
+  <!-- Main Gallery -->
+  <div class="gallery-container" id="mainGallery">
+    <!-- Images will be added dynamically -->
+  </div>
+
+  <!-- Saved Images Gallery -->
+  <div class="saved-gallery" id="savedGallery"></div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <span class="close" id="closeBtn">&times;</span>
+    <img class="modal-content" id="modalImg" />
+    <div id="caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
