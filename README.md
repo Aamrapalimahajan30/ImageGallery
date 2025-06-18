@@ -3,7 +3,7 @@ A modern, responsive, and interactive Image Gallery built with **HTML**, **CSS**
 
 ------
 
->  **I built this project with my teammate [Khan Aafiya]. It’s a small project but it helped us build our confidence and skills in front-end development.**
+>  **I built this project with my teammate [Khan Aafiya](https://github.com/khan-aafiya) It’s a small project but it helped us build our confidence and skills in front-end development.**
 
 -----
 
