@@ -48,7 +48,7 @@ To run the project locally:
 
 bash
 Copy code
-git clone https://github.com/your-username/image-gallery.git  
+git clone https://github.com/Aamrapalimahajan30/ImageGallery.git
 cd image-gallery
 Then open index.html in your browser
 Or use a Live Server extension in VS Code
